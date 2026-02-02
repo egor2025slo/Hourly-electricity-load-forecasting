@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+venv/
+env/
+dist/
+build/
+.git/
+.gitignore
+.DS_Store
+*.ipynb
+output.png
+est_hourly.paruqet
