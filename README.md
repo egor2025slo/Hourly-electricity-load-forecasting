@@ -30,9 +30,9 @@ The trained model is saved as `energy_model.json` and loaded by the API.
 ```
 .
 ├── main.py                         # FastAPI app
-├── tutorial-time-series-forecasting-with-ml.ipynb
+├── main.ipynb
 ├── energy_model.json               # Trained model
-├── input/
+├── data/
 │   └── PJME_hourly.csv             # Source data
 ├── requirements.txt
 ├── Dockerfile
@@ -54,8 +54,8 @@ http://localhost:8000/predict?date_str=2018-08-03 00:00:00
 
 ## Run with Docker
 ```bash
-docker build -t you_tube_video_iskra:latest .
-docker run -d --name you_tube_video_iskra_app -p 8000:8000 you_tube_video_iskra:latest
+docker build -t your_fiel:latest .
+docker run -d --name your_file -p 8000:8000 your_file:latest
 ```
 
 ## API
